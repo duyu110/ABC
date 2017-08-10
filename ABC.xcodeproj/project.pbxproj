@@ -15,6 +15,7 @@
 		380B21971F3ADE8000509AAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 380B21951F3ADE8000509AAF /* LaunchScreen.storyboard */; };
 		380B21A21F3ADE8000509AAF /* ABCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B21A11F3ADE8000509AAF /* ABCTests.m */; };
 		380B21AD1F3ADE8000509AAF /* ABCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 380B21AC1F3ADE8000509AAF /* ABCUITests.m */; };
+		380B21BB1F3ADEBA00509AAF /* SPORT_LOG_FILE_json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 380B21BA1F3ADEBA00509AAF /* SPORT_LOG_FILE_json.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		380B21A81F3ADE8000509AAF /* ABCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		380B21AC1F3ADE8000509AAF /* ABCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCUITests.m; sourceTree = "<group>"; };
 		380B21AE1F3ADE8000509AAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380B21BA1F3ADEBA00509AAF /* SPORT_LOG_FILE_json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SPORT_LOG_FILE_json.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		380B21861F3ADE8000509AAF /* ABC */ = {
 			isa = PBXGroup;
 			children = (
+				380B21BA1F3ADEBA00509AAF /* SPORT_LOG_FILE_json.txt */,
 				380B218A1F3ADE8000509AAF /* AppDelegate.h */,
 				380B218B1F3ADE8000509AAF /* AppDelegate.m */,
 				380B218D1F3ADE8000509AAF /* ViewController.h */,
@@ -251,6 +254,7 @@
 			files = (
 				380B21971F3ADE8000509AAF /* LaunchScreen.storyboard in Resources */,
 				380B21941F3ADE8000509AAF /* Assets.xcassets in Resources */,
+				380B21BB1F3ADEBA00509AAF /* SPORT_LOG_FILE_json.txt in Resources */,
 				380B21921F3ADE8000509AAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
