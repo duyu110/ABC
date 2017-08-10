@@ -30,6 +30,7 @@ void test3(){
     //文件不存在会自动创建，文件夹不存在则不会自动创建会报错
     NSString *path = @"/Users/tosakai/Desktop/test_export.txt";
     NSError *error;
+    
     [str writeToFile:path atomically:YES encoding:NSUTF8StringEncoding error:&error];
     if (error) {
         NSLog(@"导出失败:%@",error);
